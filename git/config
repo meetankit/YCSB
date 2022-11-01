@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@git.corp.adobe.com:rohans/YCSB
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "multi-txn-client-as"]
+	remote = origin
+	merge = refs/heads/multi-txn-client-as
+[branch "multi-txn-client-as-graph"]
+	remote = origin
+	merge = refs/heads/multi-txn-client-as-graph
